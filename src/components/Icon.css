@@ -1,0 +1,26 @@
+/* Styling for the desktop icons */
+.desktop-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    margin: 20px;
+    cursor: pointer;
+    font-family: 'MS Sans Serif', sans-serif;
+    text-align: center;
+  }
+  
+  /* Styling for the icon image */
+  .icon-image {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 5px;
+  }
+  
+  /* Label text styling */
+  .desktop-icon p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
