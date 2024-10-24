@@ -32,4 +32,6 @@
   .clock {
     padding-right: 15px;
     font-family: 'MS Sans Serif', sans-serif;
+    font-size: 14px;
+    color: #000;
   }
