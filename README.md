@@ -1,7 +1,6 @@
 # TODO:
 
-- windows are draggable
-- add more wondows for things we want
+- add more windows for things we want
   - Upcoming dates
   - merch
   - photos
