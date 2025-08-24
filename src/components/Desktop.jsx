@@ -9,7 +9,6 @@ export default function Desktop() {
         left: 0,
         bottom: 0,
         width: '100vw',
-        padding: '8px',
         display: 'flex',
         alignItems: 'flex-start', // Aligns to the left
         justifyContent: 'flex-start',
@@ -17,10 +16,13 @@ export default function Desktop() {
     >
 
 			<div style={{ padding: '1rem' }}>
-				<DesktopShortcut appName="Bio" icon="./src/assets/burger_icon.png"/>
-				<DesktopShortcut appName="Merch" icon="./src/assets/fish_icon.png"/>
-				<DesktopShortcut appName="Socials" icon="./src/assets/phone_icon.png"/>
+				<DesktopShortcut id="bio" appName="Bio" icon="./src/assets/burger_icon.png"/>
+				<DesktopShortcut id="merch" appName="Merch" icon="./src/assets/fish_icon.png"/>
+				<DesktopShortcut id="socials" appName="Socials" icon="./src/assets/phone_icon.png"/>
 			</div>
+
+
+
 		</div>
   );
 }

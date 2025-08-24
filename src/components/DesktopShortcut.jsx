@@ -1,7 +1,7 @@
-import { useWindow } from "../context/WindowContext";
+import { useWindowContext } from "../context/WindowContext";
 
-export default function DesktopShortcut({ appName , icon }) {
-	const { openWindow } = useWindow();
+export default function DesktopShortcut({ id, appName, icon }) {
+	const { openWindow } = useWindowContext();
 	return (
 		<div
 			onDoubleClick={() => openWindow(appName)}
